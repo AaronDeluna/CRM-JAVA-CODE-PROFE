@@ -5,6 +5,11 @@ public class User {
     private int phone;
     private boolean isActive;
 
+
+    public User (){
+
+    }
+
     public User(String name, int id, String email, int phone, boolean isActive) {
         this.name = name;
         this.id = id;
